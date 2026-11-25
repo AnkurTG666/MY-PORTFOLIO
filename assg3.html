@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ankur Dey | Personal Portfolio</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="assg3.css" />
+</head>
+<body id="top">
+  
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#top" class="logo">My Portfolio</a>
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    
+    <section class="hero-section fade-in">
+      <div class="container hero-container">
+        <div class="hero-text">
+          <h1>
+            Hi, I am <br />
+            <span class="animated-role">Full Stack Developer</span>
+          </h1>
+          <p class="hero-subtitle">
+            Building modern web applications and AI-powered solutions.
+          </p>
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <img
+            src="https://i.pinimg.com/736x/95/c8/a0/95c8a0ad5b9051d4ae20541c0ec85097.jpg"
+            alt="Ankur Dey Profile Picture"
+            class="profile-avatar"
+          />
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="about" class="section fade-in">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-text">
+          Hello! My name is Ankur Dey, and I am a B.Tech CSE (AI &amp; ML) student at K.R. Mangalam University, deeply interested in web development, software engineering, and artificial intelligence. This responsive portfolio showcases my journey in building clean, interactive web applications using modern HTML5, CSS3, Python, and JavaScript. With a consistent and problem-solving mindset, I aim to grow as a developer and create impactful software projects.
+        </p>
+      </div>
+    </section>
+
+   
+    <section id="skills" class="section fade-in">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>HTML5</h3>
+            <p>Semantic &amp; Accessible</p>
+          </div>
+          <div class="skill-card">
+            <h3>CSS3</h3>
+            <p>Flexbox, Grid &amp; Animations</p>
+          </div>
+          <div class="skill-card">
+            <h3>JavaScript</h3>
+            <p>DOM &amp; Interactive UI</p>
+          </div>
+          <div class="skill-card">
+            <h3>Python &amp; FastAPI</h3>
+            <p>Backend &amp; AI/ML</p>
+          </div>
+          <div class="skill-card">
+            <h3>MySQL</h3>
+            <p>Relational Databases</p>
+          </div>
+          <div class="skill-card">
+            <h3>Git &amp; GitHub</h3>
+            <p>Version Control</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="projects" class="section fade-in">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>ScamShield India</h3>
+            <p>
+              A multi-tool scam-detection web application built with HTML, CSS, Python, and FastAPI to analyze suspicious messages, harmful links, QR codes, and UPI IDs.
+            </p>
+            <span class="project-tag">HTML • CSS • Python • FastAPI</span>
+          </article>
+
+          <article class="project-card">
+            <h3>SchemeSaathi</h3>
+            <p>
+              A responsive web platform designed to help citizens discover and check eligibility for government welfare schemes through an intuitive search and map interface.
+            </p>
+            <span class="project-tag">HTML • CSS • JavaScript • MySQL</span>
+          </article>
+
+          <article class="project-card">
+            <h3>Responsive Portfolio Website</h3>
+            <p>
+              A mobile-first one-page personal portfolio crafted with Flexbox, CSS Grid, relative units, and smooth keyframe animations.
+            </p>
+            <span class="project-tag">HTML5 • CSS Grid • Flexbox</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="contact" class="section fade-in">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-card">
+          <form action="#" method="post" class="contact-form">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Write your message"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p>&copy; 2026 Ankur Dey. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="#top">Home</a>
+      </div>
+    </div>
+  </footer>
+
+  
+  <a href="#top" class="back-to-top" aria-label="Back to Top">&uarr; Back to Top</a>
+</body>
+</html>
