@@ -1,14 +1,30 @@
-# Web Dev I Lab Assignment 3: Responsive Personal Portfolio Website (CSS Advanced)
+# Hi, I am Ankur Dey!
 
-## Description
-A mobile-first, one-page responsive personal portfolio website built using semantic HTML5 and modern CSS3 techniques. The project upgrades a basic static layout into an interactive, cross-device web application using **Flexbox**, **CSS Grid**, **relative units (`rem`, `em`, `%`, `vw`, `vh`)**, **CSS transitions**, and **keyframe animations**.
+## About Me
 
-## Key Features Implemented
-- **Flexbox Layout:** Used in the sticky navigation header and the hero section to align text and profile artwork cleanly across viewports.
-- **CSS Grid Layout:** Applied to the **My Skills** and **My Projects** sections to organize cards into responsive rows and columns.
-- **Animations & Hover Effects:**
-  - `@keyframes colorShift` animates the hero role title continuously.
-  - `@keyframes fadeSlideUp` smoothly reveals sections on page load.
-  - Hover transforms (`translateY` and `scale`) and box-shadow transitions on navigation links, skill cards, project cards, and buttons.
-- **Relative Units:** Spacing, typography, and container sizing use `rem`, `em`, `%`, `vw`, and `vh` instead of fixed pixel values.
+- B.Tech CSE AI/ML Student at K.R. Mangalam University, Gurugram
+- Currently learning Python, Web Development, Linux Shell Scripting, and Git/GitHub workflows
+- Interested in Artificial Intelligence, Machine Learning, and Software Development
 
+## Technical Skills
+
+| Category | Technologies |
+| :--- | :--- |
+| Languages | Python (Beginner), Bash / Shell Scripting |
+| Tools | Git, GitHub, VS Code, Linux Terminal |
+| Concepts | File Systems, Process Management, Markdown |
+
+## Featured Projects
+
+- **CSE103 Lab Projects** – Linux, Git workflows, Shell Scripting and documentation
+
+## Currently Working On
+
+- Semester 1 lab projects
+- Improving Python programming skills
+- Learning Linux and GitHub
+
+## Connect With Me
+
+- LinkedIn: https://www.linkedin.com/in/ankurdey
+- Email: ankurdey@krmu.edu.in
